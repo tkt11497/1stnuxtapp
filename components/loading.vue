@@ -2,7 +2,7 @@
     <div class="vld-parent">
         <loading :active.sync="isLoading" 
         :can-cancel="false" 
-        :is-full-page="fullPage" :background-color="111763"></loading>
+        :is-full-page="fullPage" :background-color='color'></loading>
         
     </div>
 </template>
@@ -17,7 +17,8 @@
         data() {
             return {
                 isLoading: false,
-                fullPage: true
+                fullPage: true,
+                color: '#111763'
             }
         },
         components: {
