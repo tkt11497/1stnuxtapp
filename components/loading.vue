@@ -2,7 +2,7 @@
     <div class="vld-parent">
         <loading :active.sync="isLoading" 
         :can-cancel="false" 
-        :is-full-page="fullPage"></loading>
+        :is-full-page="fullPage" :background-color="rgb(17, 23, 99)"></loading>
         
     </div>
 </template>
